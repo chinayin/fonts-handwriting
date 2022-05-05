@@ -10,10 +10,14 @@ class FontsHandwriting
         return self::useRandom();
     }
 
+    public static function all():array{
+        return glob(__DIR__ . '/../assets/*.[tT][tT][fF]');
+    }
+
     public static function useRandom(): string
     {
-        $list = glob(__DIR__ . '/../assets/*.[tT][tT][fF]');
-        return array_rand(array_flip($list));
+        $list = self::all();
+        return $list[array_rand($list)] ;
     }
 
 }
