@@ -1,0 +1,9 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Mac-specific directory that no other operating system needs.
+.DS_Store
+.idea
+/vendor/
+/composer.lock
