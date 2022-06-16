@@ -19,7 +19,7 @@ class FontsHandwriting
     {
         return [
             'name' => self::$mapping[$key] ?? '',
-            'path' => __DIR__ . '/../assets/' . $key . 'ttf',
+            'path' => __DIR__ . '/../assets/' . $key . '.ttf',
         ];
     }
 
