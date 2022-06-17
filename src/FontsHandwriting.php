@@ -8,6 +8,7 @@ class FontsHandwriting
         'WQSXT' => '王强手写体',
         'MUYAO-SOFTBRUSH-2' => '沐瑶软笔手写体',
         'CYHYBXS' => '蔡云汉硬笔行书简书法',
+        'WWWSXT' => '万伟伟手写体',
     ];
 
     public static function getPath(): string
